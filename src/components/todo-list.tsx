@@ -44,6 +44,7 @@ const TodoList = () => {
           style={{
             flex: 1,
             padding: "8px",
+            color: "#333",
             border: `1px solid ${error ? "red" : "#ccc"}`,
             borderRadius: "4px",
           }}
@@ -76,6 +77,7 @@ const TodoList = () => {
               justifyContent: "space-between",
               alignItems: "center",
               padding: "8px",
+              color: "#333",
               borderBottom: "1px solid #ccc",
             }}
           >
